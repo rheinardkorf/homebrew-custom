@@ -5,8 +5,8 @@ class DockerCredentialEcrLogin < Formula
   VERSION = 'e04cbc84e17384bc38584868fc0529e41859c207'
 
   homepage 'https://github.com/sentientmonkey/amazon-ecr-credential-helper'
-  # url "https://github.com/sentientmonkey/amazon-ecr-credential-helper/archive/#{VERSION}.tar.gz"
-  # sha256 'b7e01deb04d11a561d88a70e2c47f4aa83901daba77b5d1973744f4efc98eda5'
+  url "https://github.com/sentientmonkey/amazon-ecr-credential-helper/archive/#{VERSION}.tar.gz"
+  sha256 '129d7fe8b5727a861428b6ea0f9e34f269097d6cd9029062724c61047373aa2f'
   version VERSION
   head 'https://github.com/sentientmonkey/amazon-ecr-credential-helper.git', :branch => 'implement-helper-list'
   depends_on 'go' => :build
