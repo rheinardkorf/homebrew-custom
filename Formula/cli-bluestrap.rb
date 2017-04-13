@@ -1,9 +1,9 @@
 class CliBluestrap < Formula
   desc 'cli-bluestrap'
   homepage 'https://bitbucket.org/ffxblue/cli-bluestrap'
-  url 'https://s3-ap-southeast-2.amazonaws.com/playpen-homebrew/cli-bluestrap-0.0.2.tar.gz'
-  sha256 'ad0ee7c72b88ad21f96afe9b22597923a071b540d3a9288a300ec8c5612b0508'
-  version '0.0.2'
+  url 'https://s3-ap-southeast-2.amazonaws.com/infrastructure-clibluestrap-development-v1/cli-bluestrap-0.9.0.tar.gz'
+  sha256 'b7a3004271b506eb2055dcfb9e6934255e717b03c8b8f01400c2347efd98b36c'
+  version '0.9.0'
 
   conflicts_with "pharod", :because => "it is broken"
 
