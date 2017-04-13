@@ -10,7 +10,7 @@ class CliBluestrap < Formula
   def install
     ENV.prepend_path "PATH", "/usr/local/bin"
     ENV["PREFIX"] = prefix
-    system 'make', 'install'
+    system 'make', 'install', VERSION=0.12.0
   end
 
   test do
