@@ -1,16 +1,16 @@
 class CliBluestrap < Formula
   desc 'cli-bluestrap'
   homepage 'https://bitbucket.org/ffxblue/cli-bluestrap'
-  url 'https://s3-ap-southeast-2.amazonaws.com/infrastructure-clibluestrap-development-v1/cli-bluestrap-0.28.0.tar.gz'
-  sha256 'aa42592999ad0ce38c2d7527671fe19bfa6dbf55d24f9d2407e177a0decf5198'
-  version '0.28.0'
+  url 'https://s3-ap-southeast-2.amazonaws.com/cli-bluestrap.ffxblue.com.au/cli-bluestrap-0.29.0.tar.gz'
+  sha256 '4aec18de19780713f948632cfa7f53f4e2ef209efb9baf0927753b6a5ca46f89'
+  version '0.29.0'
 
-  conflicts_with "pharod", :because => "it is broken"
+  conflicts_with "madebymany/pharod", :because => "it is broken"
 
   def install
     ENV.prepend_path "PATH", "/usr/local/bin"
     ENV["PREFIX"] = prefix
-    system 'make', 'install', 'VERSION=0.28.0'
+    system 'make', 'install', 'VERSION=0.29.0'
   end
 
   test do
