@@ -2,7 +2,7 @@ class CliBluestrap < Formula
   desc 'cli-bluestrap'
   homepage 'https://bitbucket.org/ffxblue/cli-bluestrap'
   url 'https://s3-ap-southeast-2.amazonaws.com/cli-bluestrap.ffxblue.com.au/cli-bluestrap-0.47.0.tar.gz'
-  sha256 'b3161067199efbac39bb2b6c8b902469e2ac621b99ca5895c172df0896cca2cb'
+  sha256 'ef76a91409756f3416bc8db924687203d4ca768116c0ee68f1c8b02dfa9c92f9'
   version '0.47.0'
 
   def install
