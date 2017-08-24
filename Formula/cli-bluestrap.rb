@@ -36,8 +36,8 @@ class CliBluestrap < Formula
 
     # Install casks (can't use 'depends_on' yet)
     system "brew cask install bitbar"
-    system "brew cask install docker"
-    system "brew cask install kitematic"
+    # system "brew cask install docker"
+    # system "brew cask install kitematic"
 
     # Check Docker is good to go
     system "bin/check"
